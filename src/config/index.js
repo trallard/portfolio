@@ -1,38 +1,30 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Tania Allard | Software Engineer',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'I am a Software Engineer and developer advocate based in Manchester, UK. I focus on all things data, scientific computing, community building and open source.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
-  siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+    'Tania Allard, open-source, data science, machine learning, scientific computing, cloud, community, MLOps',
+  siteUrl: 'https://trallard.dev',
+  siteLanguage: 'en_GB',
+  googleAnalyticsID: '',
+  googleVerification: '',
+  name: 'Tania Allard',
+  location: 'Manchester, UK',
+  email: 'trallard@bitsandchips.me',
+  github: 'https://github.com/trallard',
+  twitterHandle: '@ixek',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/trallard',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.linkedin.com/in/tania-sanchez-monroy',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/ixek',
     },
   ],
 
@@ -41,12 +33,12 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
+    // {
+    //   name: 'Experience',
+    //   url: '/#jobs',
+    // },
     {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
@@ -56,9 +48,9 @@ module.exports = {
   ],
 
   navHeight: 100,
-  greenColor: '#64ffda',
-  navyColor: '#0a192f',
-  darkNavyColor: '#020c1b',
+  greenColor: '#04D9D9',
+  navyColor: '#38208C',
+  darkNavyColor: '#25155c',
 
   srConfig: (delay = 200) => ({
     origin: 'bottom',

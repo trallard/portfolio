@@ -1,7 +1,7 @@
 ---
 date: '2016-04-01'
 title: 'CourseSource'
-github: 'https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project'
+github: 'https://github.com/trallard/WebDevSpring2016/tree/master/public/project'
 external: ''
 tech:
   - Angular

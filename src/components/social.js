@@ -21,7 +21,7 @@ const StyledList = styled.ul`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.lightSlate};
+    background-color: ${colors.lightBlue};
   }
 
   li:last-of-type {
@@ -32,7 +32,7 @@ const StyledLink = styled.a`
   padding: 10px;
   &:hover,
   &:focus {
-    transform: translateY(-3px);
+    transform: tranBlueY(-3px);
   }
   svg {
     width: 18px;

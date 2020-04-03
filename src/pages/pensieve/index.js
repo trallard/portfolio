@@ -51,7 +51,7 @@ const StyledPostInner = styled.div`
   height: 100%;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
-  background-color: ${colors.lightNavy};
+  background-color: ${colors.lightPurple};
   header,
   a {
     width: 100%;
@@ -64,7 +64,7 @@ const StyledPost = styled.div`
   &:focus {
     outline: 0;
     ${StyledPostInner} {
-      transform: translateY(-5px);
+      transform: tranBlueY(-5px);
     }
   }
 `;
@@ -73,7 +73,7 @@ const StyledPostHeader = styled.div`
   margin-bottom: 30px;
 `;
 const StyledFolder = styled.div`
-  color: ${colors.green};
+  color: ${colors.Pink};
   svg {
     width: 40px;
     height: 40px;
@@ -82,17 +82,17 @@ const StyledFolder = styled.div`
 const StyledPostName = styled.h5`
   margin: 0 0 10px;
   font-size: ${fontSizes.xxl};
-  color: ${colors.lightestSlate};
+  color: ${colors.lightestBlue};
 `;
 const StyledPostDescription = styled.div`
   font-size: 17px;
-  color: ${colors.lightSlate};
+  color: ${colors.lightBlue};
 `;
 const StyledDate = styled.span`
   text-transform: uppercase;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.xs};
-  color: ${colors.lightSlate};
+  color: ${colors.lightBlue};
 `;
 const StyledTags = styled.ul`
   display: flex;
@@ -105,7 +105,7 @@ const StyledTags = styled.ul`
   li {
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.xs};
-    color: ${colors.green};
+    color: ${colors.Pink};
     line-height: 1.75;
     margin-right: 15px;
     &:last-of-type {
@@ -123,8 +123,8 @@ const PensievePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Pensieve | Brittany Chiang</title>
-        <link rel="canonical" href="https://brittanychiang.com/pensieve" />
+        <title>Pensieve | Tania Allard</title>
+        <link rel="canonical" href="https://trallard.dev/pensieve" />
       </Helmet>
 
       <StyledMainContainer>

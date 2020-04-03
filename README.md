@@ -1,11 +1,11 @@
 <div align="center">
-  <!-- <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" /> -->
+  <!-- <img alt="Logo" src="https://raw.githubusercontent.com/trallard/v4/master/src/images/logo.png" width="100" /> -->
 </div>
 <h1 align="center">
   Tania's dev portfolio
 </h1>
 
-<!-- ![demo](https://raw.githubusercontent.com/bchiang7/v4/master/src/images/demo.png) -->
+<!-- ![demo](https://raw.githubusercontent.com/trallard/v4/master/src/images/demo.png) -->
 
 ## 🛠 Installation & Set Up
 

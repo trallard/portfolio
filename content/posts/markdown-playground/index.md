@@ -96,16 +96,16 @@ This is a paragraph.
 @import 'compass/reset';
 
 // variables
-$colorGreen: #008000;
-$colorGreenDark: darken($colorGreen, 10);
+$colorPink: #008000;
+$colorPinkDark: darken($colorPink, 10);
 
 @mixin container {
   max-width: 980px;
 }
 
 // mixins with parameters
-@mixin button($color: green) {
-  @if ($color == green) {
+@mixin button($color: Pink) {
+  @if ($color == Pink) {
     background-color: #008000;
   } @else if ($color == red) {
     background-color: #b22222;
@@ -151,9 +151,9 @@ ul {
 }
 
 a {
-  color: $colorGreen;
+  color: $colorPink;
   &:hover {
-    color: $colorGreenDark;
+    color: $colorPinkDark;
   }
   &:visited {
     color: #c458cb;
@@ -257,28 +257,28 @@ you can write text [with links](http://example.com) inline or [link references][
     >     Markdown.generate();
 
 - Red
-- Green
+- Pink
 - Blue
 
 * Red
-* Green
+* Pink
 * Blue
 
 - Red
-- Green
+- Pink
 - Blue
 
 ```markdown
 - Red
-- Green
+- Pink
 - Blue
 
 * Red
-* Green
+* Pink
 * Blue
 
 - Red
-- Green
+- Pink
 - Blue
 ```
 

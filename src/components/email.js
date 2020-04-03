@@ -17,7 +17,7 @@ const StyledLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.lightSlate};
+    background-color: ${colors.lightBlue};
   }
 `;
 const StyledEmailLink = styled.a`
@@ -30,7 +30,7 @@ const StyledEmailLink = styled.a`
 
   &:hover,
   &:focus {
-    transform: translateY(-3px);
+    transform: tranBlueY(-3px);
   }
 `;
 

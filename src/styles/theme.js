@@ -1,30 +1,24 @@
 const theme = {
   colors: {
     dark: '#141759',
-    darkestNavy: '#39216e',
-    darkNavy: '#39216e',
-    navy: '#41257d', // dark purple
-    lightNavy: '#492A8C', // light purple
+    darkestPurple: '#39216e',
+    darkPurple: '#39216e',
+    Purple: '#41257d',
+    lightPurple: '#492A8C',
+    Pink: '#F2B2AC',
+    highlight: 'rgba(242, 214, 128, 0.99)',
+    transPink: 'rgba(242, 178, 172, 0.07)',
+    transPurple: 'rgba(165, 37, 125, 0.7)',
+    shadowPurple: 'rgba(40, 23, 79, 0.7)',
     darkGrey: '#333f58',
     mediumGrey: '#2d3952',
     grey: '#4c5772',
     lightGrey: '#606a86',
-    slate: '#8ba2d5',
-    lightSlate: '#acbce1',
-    lightestSlate: '#f3f3f3',
+    Blue: '#8ba2d5',
+    lightBlue: '#acbce1',
+    lightestBlue: '#f3f3f3',
     offWhite: '#fbfafd',
     white: '#fafcff',
-    pink: '#FF647F',
-    yellow: '#FFC464',
-    orange: '#FF9E64',
-    // green: '#04D9D9', // blue
-    green: '#F2B2AC', //pink
-    blue: '#71AFFF',
-    darkBlue: '#1D7FFC',
-    highlight: 'rgba(41, 61, 90, 0.99)',
-    transGreen: 'rgba(100, 255, 218, 0.07)',
-    transNavy: 'rgba(10, 25, 47, 0.7)',
-    shadowNavy: 'rgba(2, 12, 27, 0.7)',
   },
 
   fonts: {

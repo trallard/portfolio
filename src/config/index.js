@@ -48,9 +48,9 @@ module.exports = {
   ],
 
   navHeight: 100,
-  greenColor: '#F2B2AC',
-  navyColor: '#502E99',
-  darkNavyColor: '#25155c',
+  PinkColor: '#F2B2AC',
+  PurpleColor: '#502E99',
+  darkPurpleColor: '#25155c',
   // http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#ffffff,492a8c,221341
 
   srConfig: (delay = 200) => ({

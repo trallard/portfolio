@@ -49,16 +49,16 @@
 
 ## 🎨 Color Reference
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
-| Dark Grey      | ![#333f58](https://via.placeholder.com/10/333f58?text=+) `#333f58` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+| Color         | Hex                                                                |
+| ------------- | ------------------------------------------------------------------ |
+| Purple        | ![#41257d](https://via.placeholder.com/10/41257d?text=+) `#41257d` |
+| Light Purple  | ![#492A8C](https://via.placeholder.com/10/492A8C?text=+) `#492A8C` |
+| Dark Grey     | ![#333f58](https://via.placeholder.com/10/333f58?text=+) `#333f58` |
+| Blue          | ![#8ba2d5](https://via.placeholder.com/10/8ba2d5?text=+) `#8ba2d5` |
+| Light Blue    | ![#acbce1](https://via.placeholder.com/10/acbce1?text=+) `#acbce1` |
+| Lightest Blue | ![#f3f3f3](https://via.placeholder.com/10/f3f3f3?text=+) `#f3f3f3` |
+| White         | ![#fafcff](https://via.placeholder.com/10/fafcff?text=+) `#fafcff` |
+| Pink          | ![#F2B2AC](https://via.placeholder.com/10/F2B2AC?text=+) `#F2B2AC` |
 
 ## 🙏🏼 Acnowledgements
 

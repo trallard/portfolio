@@ -1,15 +1,14 @@
 ---
-date: '2017-12-27'
-title: 'Halcyon Theme'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+date: '2019-12-27'
+title: 'Pitaya Smoothie Theme'
+github: 'https://github.com/trallard/pitaya_smoothie'
+external: 'https://trallard.github.io/pitaya_smoothie/'
 tech:
   - VS Code
-  - Sublime Text
-  - Atom
   - iTerm2
-  - Hyper
-showInProjects: false
+  - Slack
+showInProjects: true
+company: 'me'
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the Pantone colour of the year 2018 and the Outrun aesthetics. However, colours are on the pastel side to help provide contrast and highlight what is essential. Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.

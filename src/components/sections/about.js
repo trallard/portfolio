@@ -78,8 +78,9 @@ const StyledAvatarLink = styled.a`
   &:focus {
     background: transparent;
     &:after {
-      top: 15px;
-      left: 15px;
+      // add little bounce
+      // top: 15px;
+      // left: 15px;
     }
     ${StyledAvatar} {
       filter: none;

@@ -32,6 +32,15 @@ const StyledEmailLink = styled.a`
   &:focus {
     transform: tranBlueY(-3px);
   }
+
+  svg {
+    display: inline-block;
+    height: 18px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: ${colors.Pink};
+  }
 `;
 
 const Email = ({ isHome }) => (

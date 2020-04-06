@@ -1,7 +1,7 @@
 ---
 title: 'Hi, I am'
 name: 'Tania Allard'
-subtitle: 'I love data and open source'
+subtitle: 'I love data and open source.'
 contactText: 'Get In Touch'
 ---
 

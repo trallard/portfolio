@@ -32,7 +32,7 @@ const StyledTable = styled.table`
 
     &:hover,
     &:focus {
-      background-color: ${colors.lightNavy};
+      background-color: ${colors.lightPurple};
     }
   }
   th,
@@ -46,6 +46,7 @@ const StyledTable = styled.table`
   }
   th {
     text-align: left;
+    color: ${colors.Pink};
   }
   td {
     &.year {
@@ -56,7 +57,7 @@ const StyledTable = styled.table`
     }
     &.title {
       padding-top: 15px;
-      color: ${colors.lightestSlate};
+      color: ${colors.lightestBlue};
       font-size: ${fontSizes.xl};
       font-weight: 700;
     }
@@ -109,14 +110,14 @@ const ArchivePage = ({ location, data }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Archive | Brittany Chiang</title>
-        <link rel="canonical" href="https://brittanychiang.com/archive" />
+        <title>Archive | Tania Allard</title>
+        <link rel="canonical" href="https://trallard.dev/archive" />
       </Helmet>
 
       <StyledMainContainer>
         <header ref={revealTitle}>
           <h1 className="big-title">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <p className="subtitle">A reminder of some things I have worked on</p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -133,16 +134,7 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const {
-                    date,
-                    github,
-                    external,
-                    ios,
-                    android,
-                    title,
-                    tech,
-                    company,
-                  } = node.frontmatter;
+                  const { date, github, external, title, tech, company } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
@@ -184,24 +176,6 @@ const ArchivePage = ({ location, data }) => {
                               <FormattedIcon name="GitHub" />
                             </a>
                           )}
-                          {ios && (
-                            <a
-                              href={ios}
-                              target="_blank"
-                              rel="nofollow noopener noreferrer"
-                              aria-label="Apple App Store Link">
-                              <FormattedIcon name="AppStore" />
-                            </a>
-                          )}
-                          {android && (
-                            <a
-                              href={android}
-                              target="_blank"
-                              rel="nofollow noopener noreferrer"
-                              aria-label="Google Play Store Link">
-                              <FormattedIcon name="PlayStore" />
-                            </a>
-                          )}
                         </span>
                       </td>
                     </tr>
@@ -235,8 +209,6 @@ export const pageQuery = graphql`
             tech
             github
             external
-            ios
-            android
             company
           }
           html

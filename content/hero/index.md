@@ -1,8 +1,8 @@
 ---
-title: 'Hi, my name is'
-name: 'Brittany Chiang'
-subtitle: 'I build things for the web.'
+title: 'Hi, I am'
+name: 'Tania Allard'
+subtitle: 'I love data and open source.'
 contactText: 'Get In Touch'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
+I'm a software engineer based in Manchester, UK. I am obsessed with all things data and automation - especially if they are combined! I also am a massive open source advocate and serial community builder.

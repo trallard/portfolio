@@ -17,12 +17,12 @@ const StyledLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.lightSlate};
+    background-color: ${colors.lightBlue};
   }
 `;
 const StyledEmailLink = styled.a`
   font-family: ${fonts.SFMono};
-  font-size: ${fontSizes.xs};
+  font-size: ${fontSizes.smish};
   letter-spacing: 0.1em;
   writing-mode: vertical-rl;
   margin: 20px auto;
@@ -30,7 +30,16 @@ const StyledEmailLink = styled.a`
 
   &:hover,
   &:focus {
-    transform: translateY(-3px);
+    transform: tranBlueY(-3px);
+  }
+
+  svg {
+    display: inline-block;
+    height: 18px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: ${colors.Pink};
   }
 `;
 

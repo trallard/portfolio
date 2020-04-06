@@ -10,14 +10,14 @@ const StyledContainer = styled.footer`
   ${mixins.flexCenter};
   flex-direction: column;
   padding: 15px;
-  background-color: ${colors.darkNavy};
-  color: ${colors.slate};
+  background-color: ${colors.darkPurple};
+  color: ${colors.Blue};
   text-align: center;
   height: auto;
   min-height: 70px;
 `;
 const StyledSocial = styled.div`
-  color: ${colors.lightSlate};
+  color: ${colors.lightBlue};
   width: 100%;
   max-width: 270px;
   margin: 0 auto 10px;
@@ -43,7 +43,7 @@ const StyledMetadata = styled.div`
   line-height: 1;
 `;
 const StyledGitHubLink = styled.a`
-  color: ${colors.slate};
+  color: ${colors.Blue};
   padding: 10px;
 `;
 const StyledGitHubInfo = styled.div`
@@ -72,7 +72,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('https://api.github.com/repos/trallard/portfolio')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -107,7 +107,7 @@ const Footer = () => {
           href="https://github.com/bchiang7/v4"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>Designed &amp; Built by Brittany Chiang</div>
+          <div>Adapted from Brittany Chiang's portfolio</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>

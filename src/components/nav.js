@@ -147,7 +147,7 @@ const StyledListItem = styled.li`
     content: '0' counter(item) '.';
     text-align: right;
     color: ${colors.Pink};
-    font-size: ${fontSizes.xs};
+    font-size: ${fontSizes.smish};
   }
 `;
 const StyledListLink = styled(Link)`

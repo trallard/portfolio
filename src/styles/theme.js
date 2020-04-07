@@ -23,8 +23,8 @@ const theme = {
 
   fonts: {
     Calibre:
-      'Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
-    SFMono: 'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
+      'Sofia Pro Soft, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
+    SFMono: 'Attribute mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
   },
 
   fontSizes: {
@@ -38,6 +38,7 @@ const theme = {
     h3: '32px',
   },
 
+  // general transitions for the whole site - allows for them to be uniform
   easing: 'cubic-bezier(0.645, 0.045, 0.355, 1)',
   transition: 'all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)',
 
@@ -52,7 +53,7 @@ const theme = {
 
   gradient: `linear-gradient(0.4turn, #64d6ff, #64ffda)`,
 
-  loaderDelay: `6`,
+  loaderDelay: `5`,
 
   hamburgerWidth: 30,
   hamBefore: `top 0.1s ease-in 0.25s, opacity 0.1s ease-in`,

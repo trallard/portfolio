@@ -1,13 +1,12 @@
 ---
 date: '1'
 title: 'Pitaya Smoothie Theme'
-cover: 'pitaya.png'
+cover: 'tb.png'
 github: 'https://github.com/trallard/pitaya_smoothie'
 external: 'https://trallard.github.io/pitaya_smoothie/'
 tech:
-  - VS Code
-  - iTerm2
-  - Slack
+  - Python
+  - podcast
 showInProjects: true
 ---
 

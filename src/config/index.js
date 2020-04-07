@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'www.linkedin.com/in/taniaallard',
+      url: 'https://www.linkedin.com/in/taniaallard',
     },
     {
       name: 'Twitter',
@@ -32,7 +32,7 @@ module.exports = {
     },
     {
       name: 'Star',
-      url: 'https://',
+      url: 'https://bitsandchips.me',
     },
   ],
 

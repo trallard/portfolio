@@ -1,0 +1,6 @@
+diff a/src/config/index.js b/src/config/index.js	(rejected hunks)
+@@ -35,2 +35,2 @@ module.exports = {
+-      url: 'https://'
+-    }
++      url: 'https://',
++    },

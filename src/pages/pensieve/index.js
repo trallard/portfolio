@@ -90,7 +90,7 @@ const StyledPostDescription = styled.div`
 `;
 const StyledDate = styled.span`
   text-transform: uppercase;
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MonoFont};
   font-size: ${fontSizes.xs};
   color: ${colors.lightBlue};
 `;
@@ -103,7 +103,7 @@ const StyledTags = styled.ul`
   list-style: none;
 
   li {
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-size: ${fontSizes.xs};
     color: ${colors.Pink};
     line-height: 1.75;

@@ -77,7 +77,7 @@ const mixins = {
     border-radius: ${theme.borderRadius};
     padding: 0.75rem 1rem;
     font-size: ${fontSizes.smish};
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
@@ -99,7 +99,7 @@ const mixins = {
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

@@ -68,7 +68,7 @@ const StyledTable = styled.table`
     }
     &.tech {
       font-size: ${fontSizes.xs};
-      font-family: ${fonts.SFMono};
+      font-family: ${fonts.MonoFont};
       .separator {
         margin: 0 5px;
       }

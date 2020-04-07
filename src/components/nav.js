@@ -37,7 +37,7 @@ const StyledNav = styled.nav`
   position: relative;
   width: 100%;
   color: ${colors.lightestBlue};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MonoFont};
   counter-reset: item 0;
   z-index: 12;
 `;

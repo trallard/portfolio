@@ -22,9 +22,10 @@ const theme = {
   },
 
   fonts: {
-    Calibre:
+    MainFont:
       'Sofia Pro Soft, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif',
-    SFMono: 'Attribute mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
+    MonoFont:
+      'Attribute mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
   },
 
   fontSizes: {

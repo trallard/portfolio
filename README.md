@@ -1,13 +1,33 @@
 <div align="center">
-  <!-- <img alt="Logo" src="https://raw.githubusercontent.com/trallard/v4/master/src/images/logo.png" width="100" /> -->
+  <img alt="Logo" src="https://raw.githubusercontent.com/trallard/portfolio/master/src/images/logo.svg" width="200" />
 </div>
+
 <h1 align="center">
-  Tania's dev portfolio
+  Tania's dev site
 </h1>
 
-<!-- ![demo](https://raw.githubusercontent.com/trallard/v4/master/src/images/demo.png) -->
+<h3 align="center">
+   <a href="https://trallard.dev" target="_blank"> https://trallard.dev </a>
+</h3>
+
+<div align="center">
+<img src="https://github.com/trallard/portfolio/blob/master/src/images/og.png?raw=true" alt="Site demo"/>
+</div>
+
+![License](https://img.shields.io/badge/License-MIT-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+
+This site is meant to be the main landing page to all my other projects, blog and extensive resources.
+I have never had a portfolio before, so I thought I would give it a go.
+
+- [🛠 Installation & Set Up](#%-installation--set-up)
+- [🚀 Building and Running for Production](#%-building-and-running-for-production)
+- [🎨 Color Reference](#%-color-reference)
+- [📃 Licensing](#%-licensing)
+- [🙏🏼 Acknowledgements](#-acknowledgements)
 
 ## 🛠 Installation & Set Up
+
+This website is built using Gatsby Js, GraphQL and is built and served through Netlify.
 
 1. Install the Gatsby CLI
 
@@ -60,6 +80,13 @@
 | White         | ![#fafcff](https://via.placeholder.com/10/fafcff?text=+) `#fafcff` |
 | Pink          | ![#F2B2AC](https://via.placeholder.com/10/F2B2AC?text=+) `#F2B2AC` |
 
-## 🙏🏼 Acnowledgements
+## 📃 Licensing
 
-This site was adopted and modified from https://brittanychiang.com. Thanks for such an amazing site to build on from ✨.
+- The text is licensed using the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) ⓒ [Tania Allard][link_site]
+- The code is licensed using the OSI [MIT license](https://opensource.org/licenses/MIT) ⓒ [Tania Allard][link_site]
+
+## 🙏🏼 Acknowledgements
+
+This site was adopted and modified from https://brittanychiang.com. Thanks for such a fantastic site to build on from ✨.
+
+[link_site]: https://trallard.dev

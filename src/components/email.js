@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { email } from '@config';
+
 import { Side } from '@components';
 import styled from 'styled-components';
 import { theme } from '@styles';

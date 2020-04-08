@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/trallard/portfolio/master/src/images/logo.svg" width="200" />
+  <img alt="Logo" src="https://github.com/trallard/portfolio/blob/master/src/images/alt_logo.png" width="200" />
 </div>
 
 <h1 align="center">

@@ -67,12 +67,12 @@ const StyledTabButton = styled.button`
   height: ${theme.tabHeight}px;
   padding: 0 20px 2px;
   transition: ${theme.transition};
-  border-left: 2px solid ${colors.darkGrey};
+  border-left: 2px solid ${props => (props.isActive ? colors.Pink : colors.lightestGrey)};
   text-align: left;
   white-space: nowrap;
   font-family: ${fonts.MonoFont};
   font-size: ${fontSizes.smish};
-  color: ${props => (props.isActive ? colors.Pink : colors.lightGrey)};
+  color: ${props => (props.isActive ? colors.Pink : colors.lightestGrey)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
     ${mixins.flexCenter};

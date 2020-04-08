@@ -2,14 +2,6 @@
   <img alt="Logo" src="https://github.com/trallard/portfolio/blob/master/src/images/alt_logo.png" width="200" />
 </div>
 
-<h1 align="center">
-  Tania's dev site
-</h1>
-
-<h3 align="center">
-   <a href="https://trallard.dev" target="_blank"> https://trallard.dev </a>
-</h3>
-
 <div align="center">
 <img src="https://github.com/trallard/portfolio/blob/master/src/images/og.png?raw=true" alt="Site demo"/>
 </div>

@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+// import React, { useState, useEffect } from 'react';
+// import PropTypes from 'prop-types';
+import React from 'react';
 import { FormattedIcon } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
@@ -46,70 +47,69 @@ const StyledGitHubLink = styled.a`
   color: ${colors.Blue};
   padding: 10px;
 `;
-const StyledGitHubInfo = styled.div`
-  margin-top: 10px;
+// const StyledGitHubInfo = styled.div`
+//   margin-top: 10px;
 
-  & > span {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 7px;
-  }
-  svg {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    margin-right: 5px;
-  }
-`;
+//   & > span {
+//     display: inline-flex;
+//     align-items: center;
+//     margin: 0 7px;
+//   }
+//   svg {
+//     display: inline-block;
+//     height: 15px;
+//     width: auto;
+//     margin-right: 5px;
+//   }
+// `;
 
-const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
-  });
+const Footer = () => (
+  // const [githubInfo, setGitHubInfo] = useState({
+  //   stars: null,
+  //   forks: null,
+  // });
 
-  useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-      return;
-    }
-    fetch('https://api.github.com/repos/trallard/portfolio')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch(e => console.error(e));
-  }, []);
+  // useEffect(() => {
+  //   if (process.env.NODE_ENV !== 'production') {
+  //     return;
+  //   }
+  //   fetch('https://api.github.com/repos/trallard/portfolio')
+  //     .then(response => response.json())
+  //     .then(json => {
+  //       const { stargazers_count, forks_count } = json;
+  //       setGitHubInfo({
+  //         stars: stargazers_count,
+  //         forks: forks_count,
+  //       });
+  //     })
+  //     .catch(e => console.error(e));
+  // }, []);
 
-  return (
-    <StyledContainer>
-      <StyledSocial>
-        <StyledSocialList>
-          {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <StyledSocialLink
-                  href={url}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                  aria-label={name}>
-                  <FormattedIcon name={name} />
-                </StyledSocialLink>
-              </li>
-            ))}
-        </StyledSocialList>
-      </StyledSocial>
-      <StyledMetadata tabindex="-1">
-        <StyledGitHubLink
-          href="https://github.com/bchiang7/v4"
-          target="_blank"
-          rel="nofollow noopener noreferrer">
-          <div>Adapted from Brittany Chiang's portfolio</div>
+  <StyledContainer>
+    <StyledSocial>
+      <StyledSocialList>
+        {socialMedia &&
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <StyledSocialLink
+                href={url}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label={name}>
+                <FormattedIcon name={name} />
+              </StyledSocialLink>
+            </li>
+          ))}
+      </StyledSocialList>
+    </StyledSocial>
+    <StyledMetadata tabindex="-1">
+      <StyledGitHubLink
+        href="https://github.com/bchiang7/v4"
+        target="_blank"
+        rel="nofollow noopener noreferrer">
+        <div>Adapted from Brittany Chiang's portfolio</div>
 
-          {githubInfo.stars && githubInfo.forks && (
+        {/* {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
               <span>
                 <FormattedIcon name="Star" />
@@ -120,15 +120,13 @@ const Footer = () => {
                 <span>{githubInfo.forks}</span>
               </span>
             </StyledGitHubInfo>
-          )}
-        </StyledGitHubLink>
-      </StyledMetadata>
-    </StyledContainer>
-  );
-};
-
-Footer.propTypes = {
-  githubInfo: PropTypes.object,
-};
+          )} */}
+      </StyledGitHubLink>
+    </StyledMetadata>
+  </StyledContainer>
+);
+// Footer.propTypes = {
+//   githubInfo: PropTypes.object,
+// };
 
 export default Footer;

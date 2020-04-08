@@ -31,7 +31,7 @@ const SkipToContent = styled.a`
     border-radius: ${theme.borderRadius};
     padding: 18px 23px;
     font-size: ${fontSizes.sm};
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

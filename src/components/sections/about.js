@@ -35,8 +35,8 @@ const Skill = styled.li`
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
-  font-family: ${fonts.SFMono};
-  font-size: ${fontSizes.smish};
+  font-family: ${fonts.MonoFont};
+  font-size: ${fontSizes.sm};
   color: ${colors.Blue};
   &:before {
     content: '▹';

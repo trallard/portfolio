@@ -2,13 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 import theme from './theme';
 import media from './media';
 import mixins from './mixins';
-import FontFaces from './fonts';
 import TransitionStyles from './TransitionStyles';
 import PrismStyles from './PrismStyles';
 const { colors, fontSizes, fonts } = theme;
 
 const GlobalStyle = createGlobalStyle`
-  ${FontFaces};
 
   html {
     box-sizing: border-box;
@@ -31,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${colors.Purple};
     color: ${colors.Blue};
     line-height: 1.3;
-    font-family: ${fonts.Calibre};
+    font-family: ${fonts.MainFont};
     font-size: ${fontSizes.xl};
     ${media.phablet`font-size: ${fontSizes.lg};`}
 
@@ -213,13 +211,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   code {
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-size: ${fontSizes.md};
   }
 
   .overline {
     color: ${colors.Pink};
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-size: ${fontSizes.md};
     font-weight: normal;
   }
@@ -228,7 +226,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${colors.Pink};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-weight: normal;
     line-height: 1.5;
     ${media.desktop`font-size: ${fontSizes.sm};`};
@@ -253,7 +251,7 @@ const GlobalStyle = createGlobalStyle`
     }
     a {
       ${mixins.inlineLink};
-      font-family: ${fonts.SFMono};
+      font-family: ${fonts.MonoFont};
       font-size: ${fontSizes.sm};
       font-weight: bold;
       line-height: 1.5;

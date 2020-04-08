@@ -18,7 +18,7 @@ const StyledHeading = styled(Heading)`
   display: block;
   color: ${colors.Pink};
   font-size: ${fontSizes.md};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MonoFont};
   font-weight: normal;
   margin-bottom: 20px;
   justify-content: center;

@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Pitaya Smoothie Theme'
-cover: 'demo.png'
+cover: 'pitaya.png'
 github: 'https://github.com/trallard/pitaya_smoothie'
 external: 'https://trallard.github.io/pitaya_smoothie/'
 tech:

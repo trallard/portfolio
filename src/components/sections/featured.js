@@ -28,7 +28,7 @@ const StyledLabel = styled.h4`
   font-size: ${fontSizes.smish};
   font-weight: normal;
   color: ${colors.Pink};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MonoFont};
   margin-top: 10px;
   padding-top: 0;
 `;
@@ -76,7 +76,7 @@ const StyledTechList = styled.ul`
   list-style: none;
 
   li {
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-size: ${fontSizes.smish};
     color: ${colors.Blue};
     margin-right: ${theme.margin};
@@ -216,7 +216,7 @@ const Featured = ({ data }) => {
 
   return (
     <StyledContainer id="projects">
-      <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
+      <Heading ref={revealTitle}>Some Things I&apos;m working on</Heading>
 
       <div>
         {featuredProjects &&

@@ -66,7 +66,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: '#64ffda' },
+              tracedSVG: { color: '#F2B2AC' },
             },
           },
           {
@@ -129,7 +129,7 @@ module.exports = {
               // Customize the prompt used in shell output
               // Values below are default
               prompt: {
-                user: 'root',
+                user: 'tania',
                 host: 'localhost',
                 global: false,
               },
@@ -142,6 +142,15 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: config.googleAnalyticsID,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        typekit: {
+          id: 'upt5qih',
+          api: '//use.typekit.net/',
+        },
       },
     },
   ],

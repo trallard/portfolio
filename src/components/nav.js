@@ -37,7 +37,7 @@ const StyledNav = styled.nav`
   position: relative;
   width: 100%;
   color: ${colors.lightestBlue};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MonoFont};
   counter-reset: item 0;
   z-index: 12;
 `;
@@ -147,7 +147,7 @@ const StyledListItem = styled.li`
     content: '0' counter(item) '.';
     text-align: right;
     color: ${colors.Pink};
-    font-size: ${fontSizes.xs};
+    font-size: ${fontSizes.smish};
   }
 `;
 const StyledListLink = styled(Link)`

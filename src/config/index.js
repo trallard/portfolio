@@ -20,11 +20,19 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/tania-sanchez-monroy',
+      url: 'https://www.linkedin.com/in/taniaallard',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/ixek',
+    },
+    {
+      name: 'Devto',
+      url: 'https://dev.to/trallard',
+    },
+    {
+      name: 'Star',
+      url: 'https://bitsandchips.me',
     },
   ],
 
@@ -33,13 +41,13 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
-    // {
-    //   name: 'Experience',
-    //   url: '/#jobs',
-    // },
     {
       name: 'Projects',
       url: '/#projects',
+    },
+    {
+      name: 'Find me',
+      url: '/#jobs',
     },
     {
       name: 'Contact',
@@ -48,9 +56,12 @@ module.exports = {
   ],
 
   navHeight: 100,
+
+  // Theme colours
   PinkColor: '#F2B2AC',
   PurpleColor: '#502E99',
   darkPurpleColor: '#25155c',
+  // I create scalable palettes with the following tool
   // http://davidjohnstone.net/pages/lch-lab-colour-gradient-picker#ffffff,492a8c,221341
 
   srConfig: (delay = 200) => ({

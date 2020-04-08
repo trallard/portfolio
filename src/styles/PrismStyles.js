@@ -30,7 +30,7 @@ const PrismStyles = css`
     padding: 1.25em;
     overflow: auto;
     position: relative;
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-size: ${fontSizes.md};
   }
 
@@ -67,7 +67,7 @@ const PrismStyles = css`
   /* File names */
   .gatsby-code-title {
     padding: 1em 1.5em;
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-size: ${fontSizes.smish};
     background-color: ${prismColors.bg};
     color: ${prismColors.grey};
@@ -98,7 +98,7 @@ const PrismStyles = css`
     background: ${colors.mediumGrey};
     color: ${colors.offWhite};
     font-size: ${fontSizes.xs};
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     line-height: 1.5;
     letter-spacing: 0.1em;
     text-transform: uppercase;

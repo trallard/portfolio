@@ -26,7 +26,7 @@ const StyledArchiveLink = styled(Link)`
   ${mixins.inlineLink};
   text-align: center;
   margin: 0 auto;
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.MonoFont};
   font-size: ${fontSizes.sm};
   &:after {
     bottom: 0.1em;
@@ -112,7 +112,7 @@ const StyledTechList = styled.ul`
   list-style: none;
 
   li {
-    font-family: ${fonts.SFMono};
+    font-family: ${fonts.MonoFont};
     font-size: ${fontSizes.xs};
     color: ${colors.Blue};
     line-height: 1.75;

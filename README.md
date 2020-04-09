@@ -7,6 +7,7 @@
 </div>
 
 ![License](https://img.shields.io/badge/License-MIT-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3b01a675-d10e-43f3-bda8-071ef2ca8d02/deploy-status)](https://app.netlify.com/sites/youthful-thompson-84dcd6/deploys)
 
 This site is meant to be the main landing page to all my other projects, blog and extensive resources.
 I have never had a portfolio before, so I thought I would give it a go.

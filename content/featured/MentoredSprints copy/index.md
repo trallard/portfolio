@@ -11,6 +11,6 @@ tech:
 showInProjects: true
 ---
 
-Series of sprints aimed at folks from underrepresenteg groups in the tech community. We provide mentorship and a friendly and supportive environment for those willing to contribute to open source.
+Series of sprints aimed at folks from underrepresented groups in the tech community. We provide mentorship and a friendly and supportive environment for those willing to contribute to open source.
 
 Get in touch if you want to run one at your conference or as a stand-alone sprint.

@@ -8,13 +8,15 @@ tags:
   - speaker
 ---## Basic details
 
-<p style="color:#F2B2AC;">Name</p> Tania Allard
+<p style="color:#F2B2AC;">Name & Title </p> Tania Allard, PhD
+
+<p style="color:#F2B2AC;">Pronouns</p> she/her/hers
 
 <p style="color:#F2B2AC;">Job title</p> Sr. Developer Advocate @Microsoft
 
 <p style="color:#F2B2AC;">Languages spoken</p>  English, Spanish, French
 
-<p style="color:#F2B2AC;">Other affiliations</p>  Python Software Foundation Fellow, UK Python Association trustee, Society of Research Software Engineering trustee, Industrial fellow @Alan Turing Institute, Founder Pyladies NorthWest UK, RForwards core member
+<p style="color:#F2B2AC;">Other affiliations</p>  Python Software Foundation Fellow, UK Python Association trustee, Society of Research Software Engineering trustee, Industrial fellow @Alan Turing Institute, Founder Pyladies NorthWest UK, RForwards core member, Google Developer Expert - Machine Learning
 
 <p style="color:#F2B2AC;">Disclaimer</p>  I assume that if you have made it here we have already spoken about my involvement in your event. If that is not the case and you are interested in having me as a speaker please be aware I have a speaker rider <a style="text-decoration: underline;" href"https://www.bitsandchips.me/speaker-reqs/">https://www.bitsandchips.me/speaker-reqs/</a>. Please make sure to read this document to avoid disappointment.
 

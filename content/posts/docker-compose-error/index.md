@@ -1,38 +1,42 @@
 ---
-title: Docker Compose Error
-description: docker-compose version discrepancies
-date: '2019-12-13'
+title: Speaker information
+description: My speaker bio and headshots
+date: '2020-07-31'
 draft: false
-slug: '/pensieve/docker-error'
+slug: '/pensieve/speaker-info'
 tags:
-  - WordPress
-  - Docker
----
+  - speaker
+---## Basic details
 
-## Problem
+<p style="color:#F2B2AC;">Name</p> Tania Allard
 
-Recently while updating with [Skela](https://github.com/Upstatement/skela-wp-theme) with webpack, I encountered a weird error where I wasn't able to run a simple script:
+<p style="color:#F2B2AC;">Job title</p> Sr. Developer Advocate @Microsoft
 
-```shell:title=bin/composer
-#!/bin/bash
-docker-compose exec -w /var/www/html/wp-content/themes/skela wordpress composer "$@"
-```
+<p style="color:#F2B2AC;">Languages spoken</p>  English, Spanish, French
 
-When trying to run this script via `./bin/composer install`, I got this error in my terminal:
+<p style="color:#F2B2AC;">Other affiliations</p>  Python Software Foundation Fellow, UK Python Association trustee, Society of Research Software Engineering trustee, Industrial fellow @Alan Turing Institute, Founder Pyladies NorthWest UK, RForwards core member
 
-```shell
-ERROR: Setting workdir for exec is not supported in API < 1.35 (1.30)
-```
+<p style="color:#F2B2AC;">Disclaimer</p>  I assume that if you have made it here we have already spoken about my involvement in your event. If that is not the case and you are interested in having me as a speaker please be aware I have a speaker rider <a style="text-decoration: underline;" href"https://www.bitsandchips.me/speaker-reqs/">https://www.bitsandchips.me/speaker-reqs/</a>. Please make sure to read this document to avoid disappointment.
 
-The error was coming from the `-w` flag in the `docker-compose exec` command in the `composer` script.
+## Social Links
 
-## Solution
+- **Twitter:** [https://twitter.com/ixek](https://twitter.com/ixek)
+- **Github:** [https://github.com/trallard](https://github.com/trallard)
+- **Linkedin:** [https://www.linkedin.com/in/taniaallard/](https://www.linkedin.com/in/taniaallard/)
+- **Personal website:** [trallard.dev](trallard.dev)
 
-Turns The fix was to update the version in my `docker-compose.yml` file to from version `3.5` to `3.6`. It's strange because 3.5 isn't anywhere close to the API version `1.35` from the error message 🤷‍♀️
+## Bio
 
-```yaml:title=docker-compose.yml
-version: '3.6' # highlight-line
-services:
-  wordpress:
-    build:
-```
+Tania is a Sr. Developer Advocate at Microsoft with vast experience in academic research and industrial environments. Her main areas of expertise are within data-intensive applications, scientific computing, and machine learning. She has conducted extensive work on the improvement of processes, reproducibility and transparency in research, data science and artificial intelligence.
+She is passionate about mentoring, open source, and its community and is involved in a number of initiatives aimed to build more diverse and inclusive communities. She is also a contributor, maintainer, and developer of a number of open source projects and the Founder of Pyladies NorthWest.
+
+In her free time she likes tinkering with electronics, nerding with mechanical keyboards and practising weightlifting.
+
+## Headshots
+
+All of my headshots are hosted in Cloudinary so you should be able to get the hi-resolution asset by right-clicking on the image and `Saving as`.
+
+![tania1](https://res.cloudinary.com/nezahualcoyotl/image/upload/v1593696663/TaniaAllard-profile1.jpg)
+![tania2](https://res.cloudinary.com/nezahualcoyotl/image/upload/v1596203206/Tania_Allard19-07-170429_awdoj1.jpg)
+![tania3](https://res.cloudinary.com/nezahualcoyotl/image/upload/v1596203212/Tania_Allard19-07-170431_kvuudz.jpg)
+![tania4](https://res.cloudinary.com/nezahualcoyotl/image/upload/v1596203240/TaniaAllard4_uswvpc.jpg)

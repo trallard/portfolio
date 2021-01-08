@@ -1,9 +1,9 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/trallard/portfolio/blob/master/src/images/alt_logo.png" width="200" />
+  <img alt="Logo" src="https://github.com/trallard/portfolio/blob/main/src/images/alt_logo.png" width="200" />
 </div>
 
 <div align="center">
-<img src="https://github.com/trallard/portfolio/blob/master/src/images/og.png?raw=true" alt="Site demo"/>
+<img src="https://github.com/trallard/portfolio/blob/main/src/images/og.png?raw=true" alt="Site demo"/>
 </div>
 
 ![License](https://img.shields.io/badge/License-MIT-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)

@@ -12,4 +12,6 @@ skills:
   - Open tech knowledge
 ---
 
-Hi I am Tania, I am a Senior developer advocate at Microsoft. At my current role I am mainly focused on all things data, machine learning, research and scientific computing. I am particularly interested in the following topics:
+Hi I am Tania, I am the co-director at [Quansight Labs](https://www.quansight.com/labss). At my current role I am mainly focused on all things full-stack data science, scientific computing, and open source. As a co-director my priorities are driving Quansight Labs direction, vision and overall support and growth of the PyData ecosystem.
+
+I am particularly interested in the following topics:

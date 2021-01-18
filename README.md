@@ -1,7 +1,7 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/trallard/portfolio/blob/main/src/images/alt_logo.png" width="200" />
+  <img alt="Logo" src="https://github.com/trallard/portfolio/blob/main/src/images/alt_logo.png?raw=true" width="100" />
 </div>
-
+<br><br>
 <div align="center">
 <img src="https://github.com/trallard/portfolio/blob/main/src/images/og.png?raw=true" alt="Site demo"/>
 </div>
